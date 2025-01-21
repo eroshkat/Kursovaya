@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgv"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_quiz"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="750dp"
+        android:fontFamily="@font/quiz"
+        android:gravity="center"
+        android:text="@string/quiz"
+        android:textColor="@color/black"
+        android:textSize="44sp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="450dp"
+        android:layout_height="99dp"
+        android:contentDescription="@string/todo"
+        android:gravity="center"
+        android:src="@drawable/name" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="493dp"
+        android:layout_height="292dp"
+        android:layout_marginBottom="120dp"
+        android:contentDescription="@string/todo"
+        android:gravity="center"
+        android:src="@drawable/_1" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="275dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/gothic"
+        android:text="@string/quiz_start"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.AppCompat"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="275dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="850dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="@string/btn2"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/gothic"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:theme="@style/Theme.AppCompat"/>
+
+</LinearLayout>

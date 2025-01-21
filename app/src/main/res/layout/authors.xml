@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgv"
+    android:gravity="center"
+    android:fillViewport="true"
+    tools:context=".AuthorsActivity">
+
+    <TextView
+        android:id="@+id/authors"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/gothic"
+        android:gravity="center"
+        android:text="@string/auth"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_quiz"
+        android:layout_width="133dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/calypso"
+        android:gravity="center"
+        android:text="@string/quiz"
+        android:textColor="@color/black"
+        android:textSize="39sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="453dp"
+        android:layout_height="98dp"
+        android:layout_marginBottom="38dp"
+        android:contentDescription="@string/todo"
+        android:gravity="center"
+        android:src="@drawable/name" />
+
+    <TextView
+        android:id="@+id/sozd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:fontFamily="@font/gothic"
+        android:gravity="center"
+        android:text="@string/sozd"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/gub"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="@font/gothic"
+        android:gravity="center"
+        android:text="@string/gub_pol"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_marginBottom="27dp"/>
+
+    <TextView
+        android:id="@+id/svyaz"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="@font/gothic"
+        android:gravity="center"
+        android:text="@string/svyazz"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="84dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/todooo"
+        android:src="@drawable/tg"
+        android:text="@string/tg"
+        android:autoLink="web"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="319dp"
+        android:layout_height="85dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/gothic"
+        android:text="@string/goback"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.AppCompat"/>
+
+</LinearLayout>

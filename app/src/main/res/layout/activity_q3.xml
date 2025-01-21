@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgv"
+    android:gravity="center"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/tv_quiz"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/quiz"
+        android:text="@string/quiz"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="44sp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="450dp"
+        android:layout_height="99dp"
+        android:contentDescription="@string/todo"
+        android:gravity="center"
+        android:src="@drawable/name" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="493dp"
+        android:layout_height="292dp"
+        android:contentDescription="@string/todo"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/_4" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/gothic"
+        android:background="@color/white_q"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="@string/Q33" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="@string/ans1_3"
+        android:theme="@style/VDStyle"
+        android:fontFamily="@font/gothic"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="@string/ans2_3"
+        android:fontFamily="@font/gothic"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="@string/ans3_3"
+        android:fontFamily="@font/gothic"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="@string/ans4_33"
+        android:fontFamily="@font/gothic"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="@string/next"
+        android:fontFamily="@font/gothic"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>
